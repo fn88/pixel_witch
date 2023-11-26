@@ -1,0 +1,1 @@
+g++ src\main_file.cpp src\set_up.cpp src\update.cpp src\model_A.cpp src\input.cpp src\draw.cpp src\ui.cpp src\utils.cpp -o model_A.exe -std=c++17 -O1 -Wno-return-type  -Wno-missing-braces -Wno-narrowing -Wunused-variable -I include/ -L lib/ -lraylib -lopengl32 -lgdi32 -lwinmm 
